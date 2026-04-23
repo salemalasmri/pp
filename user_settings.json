@@ -1,0 +1,48 @@
+{
+    "saved_ticker": "SPY",
+    "call_color": "#00FF00",
+    "put_color": "#FF0000",
+    "coloring_mode": "Solid",
+    "vix_color": "#800080",
+    "show_calls": false,
+    "show_puts": false,
+    "show_net": true,
+    "strike_range": 2.0,
+    "chart_type": "Line",
+    "chart_text_size": 12,
+    "refresh_rate": 10,
+    "intraday_chart_type": "Candlestick",
+    "intraday_timeframe": "1m",
+    "candlestick_type": "Filled",
+    "show_vix_overlay": false,
+    "gex_type": "Net",
+    "abs_gex_opacity": 0.0,
+    "intraday_exposure_levels": [
+        "GEX"
+    ],
+    "show_straddle": false,
+    "show_technical_indicators": false,
+    "selected_indicators": [],
+    "ema_periods": [
+        9,
+        21,
+        50
+    ],
+    "sma_periods": [
+        20,
+        50
+    ],
+    "bollinger_period": 20,
+    "bollinger_std": 2.0,
+    "rsi_period": 14,
+    "fibonacci_levels": true,
+    "vwap_enabled": false,
+    "exposure_metric": "Open Interest",
+    "delta_adjusted_exposures": false,
+    "calculate_in_notional": true,
+    "intraday_level_count": 5,
+    "highlight_highest_exposure": false,
+    "highlight_color": "#BF40BF",
+    "show_sd_move": false,
+    "auto_sync_strike_range": false
+}
